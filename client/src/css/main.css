@@ -1,0 +1,71 @@
+@font-face {
+    font-family: MTNBrighterSans;
+    src: url(../fonts/MTNBrighterSans-ExtraLight.otf);
+    font-weight: lighter;
+}
+@font-face {
+    font-family: MTNBrighterSans;
+    src: url(../fonts/MTNBrighterSans-ExtraLight.otf);
+    font-weight: lighter;
+}
+@font-face {
+    font-family: MTNBrighterSans;
+    src: url(../fonts/MTNBrighterSans-Regular.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: MTNBrighterSans;
+    src: url(../fonts/MTNBrighterSans-Light.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: MTNBrighterSans;
+    src: url(../fonts/MTNBrighterSans-RegularItalic.otf);
+    font-weight: normal;
+    font-style: italic;
+}
+.mtn-font {
+    font-family: MTNBrighterSans !important;
+    color: #000;
+}
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+.navbar{
+    background: #fc0 !important;
+}
+
+    .navbar .page-title {
+         font-weight:bold;
+         display:inline-block;
+         margin-left:15px;
+    }
+
+.navbar .mtn-logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.navbar .uk-navbar-item, 
+.navbar .uk-navbar-nav > li > a, 
+.navbar .uk-navbar-toggle{
+    min-height:55px !important;
+    color:#000 !important;
+}
+.uk-input{
+    border-radius: 20px;
+    background-color:#f3f3f3;
+    color:#000 !important;
+}
+
+.uk-button.mtn-btn {
+    background-color:#fc0;
+    color:#000;
+    border-radius: 20px;
+    border-width: 0 !important;
+}
