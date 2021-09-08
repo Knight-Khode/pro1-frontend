@@ -3,15 +3,16 @@ import logo from "../images/images/mtnlogo.png"
 
 const Navbar = () => {
     return (
-        <div className="navbar">
-            <div className="uk-container"> 
-                <nav className="uk-navbar-left">
-                    <div>
-                        <img src={logo}/> 
-                    </div>
-                </nav>
+        <nav className="uk-navbar-container navbar" uk-navbar>
+            <div className="uk-navbar-left">
+                <ul className="uk-navbar-nav">
+                    <li className="uk-active">
+                        <img src={logo} className="mtn-logo" />
+                        <span className="page-title mtn-font">KYC Update</span>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
     )
 }
 
